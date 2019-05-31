@@ -22,7 +22,7 @@ public class MobileApplicationTest {
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
-        capabilities.setCapability(MobileCapabilityType.APP, "/Users/zann/eclipse-workspace/MobileAutomation/Generic/src/main/resources/td.apk");
+        capabilities.setCapability(MobileCapabilityType.APP, "/Users/user/Desktop/MobileAutomationPractice/Generic/src/main/resources/td.apk");
         appiumDriver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
         appiumDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 

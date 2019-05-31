@@ -12,6 +12,8 @@
         <module>Generic</module>
         <module>TDbank</module>
         <module>UiCatalog</module>
+        <module>booking</module>
+        <module>Target</module>
     </modules>
 
     <dependencyManagement>
